@@ -18,20 +18,20 @@ Enter a name in the Application Details (It can be anything). Enter https://my.e
 Accept the Developer Agreement and click on "Create Your Twitter Application"
 ![ScreenShot](/Installation%20Screens/Step2.PNG?raw=true)
 
-### Step3:
+### Step 3:
+Now go to permissions tab. Set Access to Read, Write and Access direct messages and click on "Update Settings"
+![ScreenShot](/Installation%20Screens/Step6.PNG?raw=true)
+
+### Step 4:
 Go to the Keys and Access Tokens tab. Copy the Consumer Key. Now open the [credentials.py](/credentials.py) file and paste at the consumer key (replacing the Xs)
 ![ScreenShot](/Installation%20Screens/Step3.PNG?raw=true)
 Do the same with Consumer Secret
 
-### Step 4:
+### Step 5:
 Now scroll down and click on "Create my access token"
 ![ScreenShot](/Installation%20Screens/Step4.PNG?raw=true)
 Now your Access Token and Access Token Secret have been generated, paste them to the [credentials.py](/credentials.py) file
 ![ScreenShot](/Installation%20Screens/Step5.PNG?raw=true)
-
-### Step 6:
-Now go to permissions tab. Set Access to Read, Write and Access direct messages and click on "Update Settings"
-![ScreenShot](/Installation%20Screens/Step6.PNG?raw=true)
 
 ## Running the code
 All you need to run the bot is to run the [bully_reply.py](/bully_reply.py) file and all who bullied you will be sent a Warning in the form of a direct message.
