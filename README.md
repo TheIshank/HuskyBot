@@ -20,7 +20,7 @@ Accept the Developer Agreement and click on "Create Your Twitter Application"
 
 ### Step 3:
 Now go to permissions tab. Set Access to Read, Write and Access direct messages and click on "Update Settings"
-![ScreenShot](/Installation%20Screens/Step$203.PNG?raw=true)
+![ScreenShot](/Installation%20Screens/Step%203.PNG?raw=true)
 
 ### Step 4:
 Go to the Keys and Access Tokens tab. Copy the Consumer Key. Now open the [credentials.py](/credentials.py) file and paste at the consumer key (replacing the Xs)
